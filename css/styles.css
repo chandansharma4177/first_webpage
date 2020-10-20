@@ -48,9 +48,10 @@ body {
 }
 
 @media (max-width: 1197px) {
-  .title_tagline{
+  .title_content{
     text-align: center;
   }
+
   .iphone_img{
     transform: rotate(0);
     position: static;
