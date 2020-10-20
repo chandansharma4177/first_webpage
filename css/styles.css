@@ -1,0 +1,181 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navigation_bar {
+  padding-bottom: 7%;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 0;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 15% 7% 15%;
+}
+
+.title_tagline {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.title_button {
+  margin: 0.5rem 1rem 2rem 0;
+}
+
+.iphone_img {
+  transform: rotate(25deg);
+  width: 300px;
+  height: auto;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1197px) {
+  .title_tagline{
+    text-align: center;
+  }
+  .iphone_img{
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+#features {
+  padding: 7% 12%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.h3_features {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 4%;
+}
+
+.features_text {
+  width: 60%;
+  margin: auto;
+  color: #cdc9c3;
+  font-size: 0.9rem;
+}
+
+.features_card {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #ff7e67;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ff414d;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.h2_testimonial {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 3%;
+}
+
+.testimonial_image {
+  height: auto;
+  width: 6rem;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ff414d;
+  padding: 4% 10% 7%;
+  text-align: center;
+}
+
+.press_img {
+  width: 15.625rem;
+  height: auto;
+  padding: 0 1% 3%;
+}
+
+#pricing{
+  text-align: center;
+}
+
+.h2_pricing{
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 5% 15% 1.5%;
+  letter-spacing: 1px;
+}
+
+
+
+.card_pricing{
+  padding: 3% 10% 5%;
+}
+
+.card-header{
+  font-weight: 500;
+}
+
+.h2_pricing_card{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5% 15%;
+  color: #fff;
+}
+
+.h3_cta{
+  font-weight: 900;
+  font-size: 3rem;
+  padding-bottom: 2%;
+}
+
+#footer{
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 2%;
+  background-color: #fff;
+
+}
+
+.p_footer{
+  color: #cdc9c3;
+}
+
+.footer_icon{
+  padding:1% 1%;
+}
